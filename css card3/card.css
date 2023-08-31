@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(164, 31, 216), rgb(211, 11, 11));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    
+    height: 100vh;
+    display: grid;
+    
+
+    align-items: center;
+}
+
+.card{
+    text-align: center;
+    background-color: white;
+    padding: 20px 0;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.details{
+    position: relative;
+    top: -60px;
+}
+
+.deteils--h{
+    color: rgb(164, 31, 216);
+}
+
+.details--img{
+    width: 20%;
+    border: 3px solid  rgb(185, 108, 216);
+    border-radius: 50%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: -60px 0 0 0;
+}
+
+.card--media{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.content--p{
+    margin-top: -19px;
+    color: rgb(95, 89, 89);
+}
+
+.second{
+    /* font-size: 2em;
+    padding: 10px;
+    border: 3px solid rgb(185, 108, 216);
+    border-radius: 60%;
+    background-color: rgb(95, 89, 89);
+    color: white; */
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    transition: all 300ms ease-in-out;
+}
+
+.second:hover{
+    opacity: 0.6;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-snapchat {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 50%;
+}
+
+.btn1{
+    padding: 8px 4em;
+    margin: 20px 3em 12px 30px;
+    background-color: #2a84c4;
+    border: 1px solid #2a84c4;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.btn2{
+    padding: 8px 4em;
+    margin: 20px 3em 0 10px;
+    background-color: rgb(248, 70, 70);
+    border: 1px solid rgb(248, 70, 70);
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.btn1:hover, .btn2:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+}
